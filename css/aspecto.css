@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: "montserrat",sans-serif;
-  background-color: #34495e;
+  background-color: #610094;
 }
-.header{
+header{
   height: 100px;
-  background: #34495e;
+  background: #3F0071;
   padding: 0 20px;
   color: #fff;
 }
@@ -14,11 +14,14 @@
   line-height: 100px;
   float: left;
   text-transform: uppercase;
+  background: #3F0071;
+  font-size: 40px;
 }
 
 .menu{
   float: right;
   line-height: 100px;
+  background: #3F0071;
 }
 .menu a{
   color: #fff;
@@ -26,15 +29,18 @@
   text-decoration: none;
   padding: 0 10px;
   transition: 0.4s;
+  background: #3F0071;
 }
 .show-menu-btn,.hide-menu-btn{
   transition: 0.4s;
   font-size: 30px;
   cursor: pointer;
   display: none;
+  background: #3F0071;
 }
 .show-menu-btn{
   float: right;
+  background: #3F0071;
 }
 .show-menu-btn i{
   line-height: 100px;
@@ -43,6 +49,7 @@
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
   color: #3498db;
+  background: #3F0071;
 }
 
 #chk{
@@ -71,7 +78,7 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #333;
+    background: #3F0071;
     right: -100%;
     top: 0;
     text-align: center;
